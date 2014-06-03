@@ -22,7 +22,7 @@
             A 10,10 1 1,1 420,90
             L 253, 199
             "
-           fill="#59fc08"
+           fill="#47B749"
            stroke="#fff"
            stroke-width="10"
            stroke-linecap="round"
@@ -48,7 +48,7 @@
         </path>
         <g id="brand" transform="scale(0)">
             <text transform="rotate(10)" x="250" font-family="sans serif" font-size="60px" y="100">DATA</text>
-            <text  transform="rotate(10)" x="420" y="100" font-family="sans serif" font-size="60px" fill="#59fc08">RPM</text>
+            <text  transform="rotate(10)" x="420" y="100" font-family="sans serif" font-size="60px" fill="#47B749">RPM</text>
                 <animateTransform id="anim3" attributeName="transform" 
                           attributeType="XML"
                           type="scale"
