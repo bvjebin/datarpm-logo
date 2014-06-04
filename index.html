@@ -18,96 +18,98 @@
       <div class="inner">
 
         <header>
-          <h1 style="height: 300px;"><svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1500 1500" height="500">
-    <g transform="translate(0, 100) rotate(-10)">
- <path id="lens"
-        d="
-        M 210, 170
-        m -75, 0
-        a 20,20 0 1,0 200,0
-        a 20,20 0 1,0 -200,0
-        M 310 270
-        L 380 360
-        "
-       fill="none"
-       stroke="#0C1526"
-       stroke-width="50"
-       stroke-linecap="round"
-  />
-  <path id="needle"
-        d="
-        M 250, 200
-        A 5,5 0 1,1 230,140
-        L 410 70 
-        A 10,10 1 1,1 420,90
-        L 253, 199
-        "
-       fill="#47b749"
-       stroke="#fff"
-       stroke-width="10"
-       stroke-linecap="round"
-      >
-        <animateTransform id="anim0"                                               
-                          attributeName="transform" 
-                          attributeType="XML"
-                          type="rotate"
-                          begin="logo1.click"
-                          from="0, 230, 175" 
-                          to="-180, 230, 175" 
-                          dur="1s"
-                          fill="freeze"
-                          repeatCount="1"/>
-        <animateTransform id="anim01" attributeName="transform" 
-                          attributeType="XML"
-                          type="rotate" 
-                          begin="anim0.end"
-                          from="-180, 230, 175" 
-                          to="0, 230, 175" 
-                          dur="1s"
-                          fill="freeze"
-                          calcMode = "spline"
-                          keySplines = "0.25 0.1 0.25 1"
-                          keyTimes = "0;1"
-                          repeatCount="1"/>
-            <animateTransform id="anim1" attributeName="transform" 
-                          attributeType="XML"
-                          type="rotate" 
-                          from="0, 230, 175" 
-                          to="-180, 230, 175" 
-                          dur="1s"
-                          repeatCount="1"/>
-            <animateTransform id="anim2" attributeName="transform" 
-                          attributeType="XML"
-                          type="rotate" 
-                          begin="anim1.end"
-                          from="-180, 230, 175" 
-                          to="0, 230, 175" 
-                          dur="1s"
-                          calcMode = "spline"
-                          keySplines = "0.25 0.1 0.25 1"
-                          keyTimes = "0;1"
-                          repeatCount="1"/>
-    </path>
-      <g id="brand" transform="scale(0)">
-      <text transform="rotate(10)" x="250" font-family="sans serif" font-size="60px" y="100">DATA</text>
-      <text  transform="rotate(10)" x="440" y="100" font-family="sans serif" font-size="60px" fill="#47b749">RPM</text>
-        <animateTransform id="anim3" attributeName="transform" 
-                          attributeType="XML"
-                          type="scale"
-                          begin="anim2.end"
-                          from="0" 
-                          to="2"
-                          dur="1s"
-                          fill = "freeze"
-                          repeatCount="1"/>
-      </g>  
-    </g>
-  </svg></h1>
+          <h1 style="height: 300px;">
+            <svg version="1.1" id="logo1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 2000 2000">
+              <g transform="translate(0, 100) rotate(-10)">
+                <path id="lens"
+                      d="
+                      M 210, 170
+                      m -75, 0
+                      a 20,20 0 1,0 200,0
+                      a 20,20 0 1,0 -200,0
+                      M 310 270
+                      L 380 360
+                      "
+                     fill="none"
+                     stroke="#0C1526"
+                     stroke-width="50"
+                     stroke-linecap="round"
+              />
+                <path id="needle"
+                      d="
+                      M 250, 200
+                      A 5,5 0 1,1 230,140
+                      L 410 70 
+                      A 10,10 1 1,1 420,90
+                      L 253, 199
+                      "
+                     fill="#47B749"
+                     stroke="#fff"
+                     stroke-width="10"
+                     stroke-linecap="round"
+              >
+                    <animateTransform id="anim0"                                               
+                              attributeName="transform" 
+                              attributeType="XML"
+                              type="rotate"
+                              begin="logo1.click"
+                              from="0, 230, 175" 
+                              to="-180, 230, 175" 
+                              dur="1s"
+                              fill="freeze"
+                              repeatCount="1"/>
+                    <animateTransform id="anim01" attributeName="transform" 
+                              attributeType="XML"
+                              type="rotate" 
+                              begin="anim0.end"
+                              from="-180, 230, 175" 
+                              to="0, 230, 175" 
+                              dur="1s"
+                              fill="freeze"
+                              calcMode = "spline"
+                              keySplines = "0.25 0.1 0.25 1"
+                              keyTimes = "0;1"
+                              repeatCount="1"/>
+                    <animateTransform id="anim1" attributeName="transform" 
+                              attributeType="XML"
+                              type="rotate" 
+                              from="0, 230, 175" 
+                              to="-180, 230, 175" 
+                              dur="1s"
+                              repeatCount="1"/>
+                    <animateTransform id="anim2" attributeName="transform" 
+                              attributeType="XML"
+                              type="rotate" 
+                              begin="anim1.end"
+                              from="-180, 230, 175" 
+                              to="0, 230, 175" 
+                              dur="1s"
+                              calcMode = "spline"
+                              keySplines = "0.25 0.1 0.25 1"
+                              keyTimes = "0;1"
+                              repeatCount="1"/>
+              </path>
+                <g id="brand" transform="scale(0)">
+                      <text transform="rotate(10)" x="250" font-family="sans serif" font-size="60px" y="100">DATA</text>
+                      <text transform="rotate(10)" x="420" y="100" font-family="sans serif" font-size="60px" fill="#47B749">RPM</text>
+                          <animateTransform id="anim3" attributeName="transform" 
+                                attributeType="XML"
+                                type="scale"
+                                begin="anim2.end"
+                                from="0" 
+                                to="2"
+                                dur="1s"
+                                fill = "freeze"
+                                repeatCount="1"/>
+                </g>
+              </g>
+            </svg>
+          </h1>
           <h2 style="text-align: center;">Animative DataRPM logo</h2>
           <h3 style="text-align: center;">Under the hood</h3>
           <p style="text-align: center;">No javascript or CSS is involved. The simple animation happens on pure SVG and SMIL animation only.</p>
         </header>
-</div>
+      </div>
     </div>
   </body>
 </html>
